@@ -1,0 +1,9 @@
+.register-container input{
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+}
+
+.register-button{
+    width: 10% !important;
+}
