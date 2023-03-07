@@ -3,11 +3,12 @@ import useFirebase from '../../hooks/useFirebase';
 import './LogIn.css'
 
 const LogIn = () => {
-    const {signInWithGoogle} = useFirebase()
+    const {user, signInWithGoogle} = useFirebase()
     return (
         <div className='login-container'>
             <h2>LogIn Please </h2>
             <div className="google-signin">
+                
                 <button onClick={signInWithGoogle}>Google SignIn</button>
             </div>
 
